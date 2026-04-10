@@ -1,0 +1,36 @@
+# =============================================================================
+# leaderboard — .gitignore
+# Minimal — this repo only contains leaderboard.json and its README.
+# =============================================================================
+
+# --- Python (update scripts run by GitHub Actions) ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Secrets ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Backup files (never commit auto-generated backups of leaderboard.json) ---
+*.bak
+*.orig
+leaderboard.json.bak
+
+# --- Logs ---
+*.log
+
+# --- OS artifacts ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
