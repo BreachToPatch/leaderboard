@@ -1,4 +1,14 @@
 {
   "last_updated": "2026-04-14T00:00:00Z",
-  "players": []
+  "players": [
+    {
+      "github_username": "MohamedOutougane",
+      "points": 100,
+      "pwns": 1,
+      "patches": 0,
+      "machines_created": 0,
+      "badges": ["🩸 First Blood"],
+      "github_profile": "https://github.com/MohamedOutougane"
+    }
+  ]
 }
